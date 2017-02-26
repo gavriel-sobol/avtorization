@@ -37,8 +37,7 @@
     height:55%;
     border-radius: 3px; /* Уголки */
     box-shadow: 0 3px 8px rgba(0,0,0,0.5); /* тень */
-    background: #FFFFFF;
-    border: 1px solid #000;}
+    background: #FFFFFF;}
 
 .b-avtorization-body > p {
     color: #b7b7b7;
