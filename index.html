@@ -5,28 +5,31 @@
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
  <link rel="stylesheet" href="css/style_site.css" type="text/css">   
 </head>
-<body bgcolor="#f5f6f5">
-<section class="b-avtorization">
-    <section class="b-avtorization-head">
-        <section class="b-logoimg">
-        </section>
-        <section class="b-logotext">
-              <h1>swedavia</h1> 
-              <h2>swedish airports</h2>
-         </section>
 
-      </section>
-  
-    
-    <section class="b-avtorization-body">
-           
-        <form>
-        <h4>Username</h4>
-        <input type="text" class="style-input" >
+
+<body bgcolor="#f5f6f5" class="avtorization">
+<article class="block-avtorization"> <!--или div?-->
         
+        <section class="head"> 
+            <div class="block-head__logoimg">
+            </div>
+            <article class="block-head__logotext">
+                <h1>swedavia</h1> 
+                <h2>swedish airports</h2>
+            </article >
+        </section>
 
-        <p><h4>Password</h4>
-        <input type="password" class="style-input">
+
+</article>
+  
+     <section class="block-avtorization__main">
+        <form>
+        <p><h4><label for="login">Username:</label></h4>
+        <input type="text" name="login" class="style-input" >
+        </p>
+
+        <p><h4><label for="pass">Password:</label></h4>
+        <input type="password" name="pass" class="style-input">
         </p>
 
         <p>
@@ -41,7 +44,7 @@
 
 
 
-    <section class="b-avtorization-footer">
+     <section class="footer">
         
        Powered by <a href="#" class="color-text"> Cygete </a>
 
