@@ -1,0 +1,94 @@
+﻿*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+.b-avtorization{
+     position:absolute;
+	 margin-top: calc(50vh - 175px);
+	 margin-left: calc(50vw - 150px);
+     width:300px;
+     height:350px;}
+.b-avtorization-head{
+    position:relative;
+    height:20%;
+    margin: 0 40px;}
+.b-logotext{
+ height: 96%;
+ margin-left: 35%;
+ text-align: left;
+ color: #1c5386;
+ font-family: Tahoma,Arial;
+ padding-top: 7px; }
+ .b-logotext > h1{  font-size: 24px;}
+ .b-logotext > h2{  font-size: 14px; }
+.b-logoimg {
+    position:absolute;
+    height: 96%;
+    width: 30%;
+    background: #CCCCCC;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;}
+
+.b-avtorization-body{
+    position:relative;
+    margin-top: 15px;
+    padding: 15px;
+    width:100%;
+    height:55%;
+    border-radius: 3px; /* Уголки */
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5); /* тень */
+    background: #FFFFFF;}
+
+.b-avtorization-body > p {
+    color: #b7b7b7;
+    font-size: 24px;}
+.style-input{
+      width:100%;
+      height: 30px;
+      padding-left: 5px;
+      font-size: 16px;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.2); /* тень */
+      border-radius: 3px; /* Уголки */
+      border: 0px solid rgba(5,5,5,0.5);}
+form>p{
+  padding-bottom: 10px;}
+
+form>h4{
+ font-family: Tahoma,Arial;
+ font-size: 12px;
+ font-weight: 400;}
+
+   ul.hr li {
+    display: inline;
+    padding: 3px;  }
+
+a.knopka {
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: #E06AA1; 
+  padding: 10px 15px;
+  margin-right: 25px;
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing:1.2px;
+  -moz-border-radius: 49px;
+  -webkit-border-radius: 49px;
+  border-radius: 49px;
+  }
+ 
+  a.knopka:hover { background: #AA00FF; } 
+  a.knopka:active { background: #FF55FF; } 
+.b-avtorization-footer{
+    width:100%;
+    height:20%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Tahoma,Arial;
+    color: #C7C7C7;}
+
+a.color-text {color: #b7b7b7;}
+a.color-text {color:#b7b7b7;}
+a.color-text {color: #b7b7b7;}
